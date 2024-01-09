@@ -1,0 +1,19 @@
+@eCommerceServer_HostAddress = http://localhost:5191
+
+POST http://localhost:5191/api/Auth/Login
+Accept: application/json
+Content-Type: application/json
+
+{
+  "email": "melik@gmail.com",
+  "password": "String.1"
+}
+###
+
+GET https://localhost:7194/api/ShoppingCarts/GetAll
+Accept:application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRW1haWwiOiJtZWxpa0BnbWFpbC5jb20iLCJOYW1lIjoiQWJkdWxtZWxpayDDlnp0dW7DpyIsIm5iZiI6MTcwNDY2MDQxNiwiZXhwIjoxNzA3MzM4ODE2LCJpc3MiOiJUYW5lciBTYXlkYW0iLCJhdWQiOiJsb2NhbGhvc3Q6NDIwMCJ9.BQU_Qz4c0chA2quvYEtwQxEd9fDMnt6cNJLDkWq-ig4WyeHXXl3wH-tPwjcQT93Au1dJWJXX1Eza1136Qx_PnA
+###
+GET https://localhost:7194/api/Orders/GetAll
+Accept:application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxIiwiRW1haWwiOiJtZWxpa0BnbWFpbC5jb20iLCJOYW1lIjoiQWJkdWxtZWxpayDDlnp0dW7DpyIsIm5iZiI6MTcwNDY2MDQxNiwiZXhwIjoxNzA3MzM4ODE2LCJpc3MiOiJUYW5lciBTYXlkYW0iLCJhdWQiOiJsb2NhbGhvc3Q6NDIwMCJ9.BQU_Qz4c0chA2quvYEtwQxEd9fDMnt6cNJLDkWq-ig4WyeHXXl3wH-tPwjcQT93Au1dJWJXX1Eza1136Qx_PnA
